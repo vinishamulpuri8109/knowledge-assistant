@@ -1,0 +1,22 @@
+# Secrets
+.env
+*.env.local
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated at runtime (vector store, uploads, SQLite DB is created + seeded on first start)
+backend/data/
+sample_data/service_records.db
+
+# Frontend
+node_modules/
+dist/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
